@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Ink Free, sans-serif;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    color: #4ab19a;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+    color: black;
+    border-bottom: 0.1rem solid #4CAF50;
+    font-weight: bold;
+}
+#logo-nav {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/* Style the content */
+
+.content-1 {
+    background-color: #ddd;
+    padding: 10px;
+    height: auto;
+}
+.content-1 h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.content-1 p {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.content-2 {
+    background-color: #c5ded7;
+    padding: 10px;
+    height: 600px;
+}
+.content-2 h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.content-2 h1 {
+    text-align: right;
+    font-size: 40px;
+}
+.content-2 p {
+    text-align: right;
+    font-size: 20px;
+}
+.content-3 {
+    background-color: #ddd;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+/* Style the columns */
+
+.column-right {
+    margin-top: 30px;
+}
+.column-right h1 {
+    text-align: left;
+}
+.column-right p {
+    text-align: left;
+    padding-right: 20%;
+}
+.column-left p {
+    text-align: right;
+    padding-left: 20%;
+}
+
+/* Left and right column */
+
+.column-left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.column-right {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+/* Style the footer */
+
+.footer {
+    background-color: #c5ded7;
+    padding: 10px;
+    text-align: center;
+    padding-top: 3%;
+}
+.footer img {
+    padding: 1%;
+}
+
+/* Header/Blog Title */
+
+.header {
+    height: 100vh;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    background-color: #c5ded7;
+}
+.header h1 {
+    font-size: 100px;
+    color: #000;
+}
+.header p {
+    font-size: 60px;
+    color: #000;
+}
+
+/* pictures */
+
+.img1 {
+    width: 32%;
+    margin-right: 35%;
+}
+.img2 {
+    width: 60%;
+    margin-left: 30%;
+}
+.mountain {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+.cloud {
+    position: absolute;
+    left: 40%;
+    bottom: 35%;
+}
+.cloud-2 {
+    position: absolute;
+    left: 60%;
+    bottom: 40%;
+}
+.me-content-img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+/* buttons */
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.button:hover {
+    background-color: #4CAF50;
+    opacity: 0.8;
+    color: #000;
+    font-weight: bold;
+}
